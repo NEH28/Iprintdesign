@@ -1,0 +1,390 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url() ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue ;
+    color:black;
+    padding: 10px 20px;
+    margin: 0;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    background-image:image/pic.jpg ;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background color: grey ;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #cc5200;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Horizontal arrangement for categories */
+.categories-horizontal {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+/* Reduce the size of the images */
+.category-item img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+/* Style for the category title */
+.category-item h3 {
+    margin: 10px 0 0; /* Add some space above the title */
+    font-size: 16px; /* Adjust font size */
+    color: #333;
+    text-align: center;
+}
+
+/* Horizontal arrangement for categories */
+.products-horizontal {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 30px; /* Space between items */
+    padding: 30px;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+/* Reduce the size of the images */
+.category-item img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 9px; /* Optional: Add rounded corners */
+}
+
+/* Style for the category title */
+.category-item h3 {
+    margin: 10px 0 0; /* Add some space above the title */
+    font-size: 16px; /* Adjust font size */
+    color: #333;
+    text-align: center;
+}
+
+
+/* Horizontal arrangement for categories */
+.services-horizontal {
+    display: flex;
+    background-image: url();
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 30px; /* Space between items */
+    padding: 30px;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+/* Reduce the size of the images */
+.category-item img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 9px; /* Optional: Add rounded corners */
+}
+
+/* Style for the category title */
+.category-item h3 {
+    margin: 10px 0 0; /* Add some space above the title */
+    font-size: 16px; /* Adjust font size */
+    color: #333;
+    text-align: center;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    
+}
+
+.about-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Why Us Section */
+.why-us {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.why-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.why-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.reason {
+    flex: 1 1 250px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.reason h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.reason p {
+    font-size: 14px;
+    color: #555;
+}
+/* Contact Section */
+.contact-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-form, .contact-info {
+    flex: 1 1 45%;
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3, .contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #cc5200;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-info ul li strong {
+    color: #333;
+}
+
+.map {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+/* Hero Section */
+.hero {
+    background-image: url(https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);/* Path to your background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.cta-button:hover {
+    background-color: blue;
+}
+
+/* Categories Section (existing styles) */
+.categories-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.category-item {
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.category-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.category-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
